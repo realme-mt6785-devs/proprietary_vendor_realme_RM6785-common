@@ -6,4 +6,20 @@ LOCAL_PATH := $(call my-dir)
 
 ifneq ($(filter RMX2001L1 RMX2151L1,$(TARGET_DEVICE)),)
 
+$(call add-radio-file-sha1-checked,radio/audio_dsp.img,2d87067c80e59eb7c628fb227a11e7fb28d7d5ff)
+$(call add-radio-file-sha1-checked,radio/cam_vpu1.img,8e4a8148966803847444f93c4ddcd2068e495382)
+$(call add-radio-file-sha1-checked,radio/cam_vpu2.img,8dbf27f5abc39a0bf36d423ea762907c94c5cec0)
+$(call add-radio-file-sha1-checked,radio/cam_vpu3.img,46a4fdb337978f1ef1dc5ec2a5f4a3715bd6b902)
+$(call add-radio-file-sha1-checked,radio/cdt_engineering.img,13f5f33df779408b04cdfb3d78dd1ebbd3afb7b4)
+$(call add-radio-file-sha1-checked,radio/dtbo.img,7aee14d09c7543a44e5b0c736860d4ce1dc8fb52)
+$(call add-radio-file-sha1-checked,radio/gz.img,9442ebf9fc9b99fa00381d494c5de9dd80c36c67)
+$(call add-radio-file-sha1-checked,radio/lk.img,582aa0e251f9c5624a5ec48c0cafca4cd3331432)
+$(call add-radio-file-sha1-checked,radio/logo.bin,6be4852676ad0b11621a802d3fdc71dcb12c6402)
+$(call add-radio-file-sha1-checked,radio/md1img.img,eb4b8c5a11a7237306203bc31d6ff11f743896a4)
+$(call add-radio-file-sha1-checked,radio/preloader_ufs.img,23f7c4847b7dacbe524f01f5218f142be8a06128)
+$(call add-radio-file-sha1-checked,radio/scp.img,c512982316c6839b32d08b0f763ff3b1c18ab0a7)
+$(call add-radio-file-sha1-checked,radio/spmfw.img,30ecc24e5947934d3284700dce3fa3b0fa4f923a)
+$(call add-radio-file-sha1-checked,radio/sspm.img,6b9a1e67aabfa11875ceecd1e0fa0117e62966cd)
+$(call add-radio-file-sha1-checked,radio/tee.img,7ede37cb743ab33a1fc41fd5d904efdd5769f04f)
+
 endif
