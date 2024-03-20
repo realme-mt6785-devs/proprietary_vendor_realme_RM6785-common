@@ -1761,3 +1761,9 @@ PRODUCT_PACKAGES += \
     xcap \
     vtservice \
     vendor.oplus.hardware.biometrics.fingerprint@2.1-service
+
+PRODUCT_PACKAGES += \
+    libGLES_mali_vulkan.mt6785_symlink64 \
+    kmsetkey.trustonic_kmsetkey.default_symlink64 \
+    libMcGatekeeper_gatekeeper.mt6785_symlink64 \
+    libSoftGatekeeper_gatekeeper.default_symlink64

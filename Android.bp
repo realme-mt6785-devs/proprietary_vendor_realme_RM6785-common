@@ -16514,3 +16514,31 @@ cc_prebuilt_binary {
 	device_specific: true,
 }
 
+install_symlink {
+	name: "libGLES_mali_vulkan.mt6785_symlink64",
+	soc_specific: true,
+	installed_location: "lib64/hw/vulkan.mt6785.so",
+	symlink_target: "/vendor/lib64/egl/libGLES_mali.so",
+}
+
+install_symlink {
+	name: "kmsetkey.trustonic_kmsetkey.default_symlink64",
+	soc_specific: true,
+	installed_location: "lib64/hw/kmsetkey.default.so",
+	symlink_target: "/vendor/lib64/hw/kmsetkey.trustonic.so",
+}
+
+install_symlink {
+	name: "libMcGatekeeper_gatekeeper.mt6785_symlink64",
+	soc_specific: true,
+	installed_location: "lib64/hw/gatekeeper.mt6785.so",
+	symlink_target: "/vendor/lib64/hw/libMcGatekeeper.so",
+}
+
+install_symlink {
+	name: "libSoftGatekeeper_gatekeeper.default_symlink64",
+	soc_specific: true,
+	installed_location: "lib64/hw/gatekeeper.default.so",
+	symlink_target: "/vendor/lib64/hw/libSoftGatekeeper.so",
+}
+
