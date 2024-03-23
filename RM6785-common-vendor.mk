@@ -513,7 +513,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RM6785-common/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc \
     vendor/realme/RM6785-common/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc \
     vendor/realme/RM6785-common/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service-mediatek.rc \
-    vendor/realme/RM6785-common/proprietary/vendor/etc/init/android.hardware.wifi.supplicant-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.supplicant-service.rc \
     vendor/realme/RM6785-common/proprietary/vendor/etc/init/atcid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atcid.rc \
     vendor/realme/RM6785-common/proprietary/vendor/etc/init/audiocmdservice_atci.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiocmdservice_atci.rc \
     vendor/realme/RM6785-common/proprietary/vendor/etc/init/bootperf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bootperf.rc \
@@ -1585,10 +1584,8 @@ PRODUCT_PACKAGES += \
     libtflite_mtk \
     libtflite_mtk_static_R \
     libudf \
-    libwapi \
     libwifi-hal-mtk \
     libwifitest \
-    libwpa_client \
     libmtkcam_streaminfo_plugin-p1stt \
     ov02b10_mipi_raw_IdxMgr \
     ov02b10_mipi_raw_tuning \
@@ -1635,10 +1632,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.power@2.0 \
     vendor.mediatek.hardware.pplagent@1.0 \
     vendor.mediatek.hardware.videotelephony@1.0 \
-    vendor.mediatek.hardware.wifi.supplicant@2.0 \
-    vendor.mediatek.hardware.wifi.supplicant@2.1 \
-    vendor.mediatek.hardware.wifi.supplicant@2.2 \
-    vendor.oplus.hardware.wifi.supplicant@2.0 \
     vendor.trustonic.tee.tui@1.0 \
     vendor.trustonic.tee@1.0 \
     vendor.trustonic.tee@1.1 \
@@ -1727,7 +1720,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.pq@2.2-service \
     vendor.trustonic.tee@1.1-service \
     vtservice_hidl \
-    wpa_supplicant \
     ipsec_mon \
     jpegtool \
     lbs_hidl_service \
@@ -1757,7 +1749,6 @@ PRODUCT_PACKAGES += \
     wlan_assistant \
     wmt_launcher \
     wmt_loader \
-    wpa_cli \
     xcap \
     vtservice \
     vendor.oplus.hardware.biometrics.fingerprint@2.1-service
