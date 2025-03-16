@@ -13,7 +13,7 @@ $(call add-radio-file-sha1-checked,radio/cam_vpu3.img,46a4fdb337978f1ef1dc5ec2a5
 $(call add-radio-file-sha1-checked,radio/cdt_engineering.img,13f5f33df779408b04cdfb3d78dd1ebbd3afb7b4)
 $(call add-radio-file-sha1-checked,radio/dtbo.img,7aee14d09c7543a44e5b0c736860d4ce1dc8fb52)
 $(call add-radio-file-sha1-checked,radio/gz.img,9442ebf9fc9b99fa00381d494c5de9dd80c36c67)
-$(call add-radio-file-sha1-checked,radio/lk.img,582aa0e251f9c5624a5ec48c0cafca4cd3331432)
+$(call add-radio-file-sha1-checked,radio/lk.img,240a28ca64af0fca12276ac5851b9515ba70bd96)
 $(call add-radio-file-sha1-checked,radio/logo.bin,6be4852676ad0b11621a802d3fdc71dcb12c6402)
 $(call add-radio-file-sha1-checked,radio/md1img.img,eb4b8c5a11a7237306203bc31d6ff11f743896a4)
 $(call add-radio-file-sha1-checked,radio/preloader_ufs.img,23f7c4847b7dacbe524f01f5218f142be8a06128)
